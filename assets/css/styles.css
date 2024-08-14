@@ -1,0 +1,178 @@
+@charset "UTF-8";
+/*header*/
+.navbar1 {
+  background-color: #BF7E04;
+}
+
+.nav__title {
+  font-weight: 800;
+  font-family: "Open Sans", sans-serif;
+  font-size: 35px;
+  color: #591902;
+}
+
+.navbar__link {
+  color: #ffffff;
+  font-family: "Anek Devanagari", sans-serif;
+  font-size: 18px;
+}
+
+/*main*/
+/*container1*/
+.img__inicio {
+  width: 450px;
+  height: 400px;
+}
+
+/*container1*/
+.box2__title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  color: #591902;
+}
+
+.box2__subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #BF7E04;
+}
+
+.box__text {
+  text-align: start;
+}
+
+.button_contact {
+  width: 50%;
+  background-color: #6BA612;
+}
+
+/*container2 habilidades*/
+.title__habi {
+  font-family: "Anek Devanagari", sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #BF7E04;
+}
+
+/*container2 proyectos*/
+.icons1__title {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.icons1 {
+  max-width: 100px;
+  width: 100%;
+}
+
+.img__meet {
+  width: 20vw;
+  height: 10vw;
+}
+
+.title__proyect {
+  font-family: "Anek Devanagari", sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  color: #BF7E04;
+}
+
+.text__subtitle5 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.title__form {
+  font-family: "Anek Devanagari", sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  color: #BF7E04;
+}
+
+/*form*/
+.name__form {
+  font-family: "Anek Devanagari", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.button__form {
+  text-align: start;
+}
+
+.button_send {
+  width: 50%;
+  background-color: #6BA612;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.icono__form {
+  margin-top: 15px;
+  color: #591902;
+}
+
+.text__form {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #BF7E04;
+}
+
+.box__form {
+  width: 100%;
+}
+
+/*media queris*/
+@media (min-width: 476px) and (max-width: 576px) { /* Ajusta el ancho máximo según tus necesidades */
+  .button_contact {
+    width: 100%;
+  }
+  .box__text {
+    margin-left: 20px;
+    text-align: start;
+    margin-top: 25px;
+  }
+  .button_contact {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .boxi-1 {
+    display: contents;
+    justify-items: center;
+  }
+  .icons1__title {
+    margin-top: 25px;
+  }
+}
+@media (min-width: 477px) and (max-width: 577px) {
+  .img__meet {
+    width: 40vw;
+    height: 20vw;
+  }
+  .title__proyect {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .button_send {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+  }
+  .box__iconos {
+    margin-left: 15px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

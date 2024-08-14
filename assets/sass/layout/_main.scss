@@ -1,0 +1,98 @@
+/*main*/
+/*container1*/
+.img__inicio{
+    width: 450px;
+    height: 400px;
+}
+/*container1*/
+.box2__title{
+    font-family: $font1;
+    font-size: 27px;
+    font-weight: 700;
+    color: $color_darkcoffee;
+}
+.box2__subtitle{
+    font-family: $font1;
+    font-size: 20px;
+    font-weight: 700;
+    color: $color__coffee;
+}
+.box__text{
+    text-align: start;
+}
+.button_contact{
+    width: 50%;
+    background-color: #6BA612;
+}
+/*container2 habilidades*/
+
+.title__habi{
+    font-family: $font2;
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: $color__coffee;
+}
+
+/*container2 proyectos*/
+
+.icons1__title{
+    text-align: center;
+    font-family: $font1;
+}
+.icons1{
+    max-width: 100px;
+    width: 100%;
+
+}
+.img__meet{
+    width: 20vw;
+    height: 10vw;
+}
+.title__proyect{
+    font-family: $font2;
+    font-size: 27px;
+    font-weight: 600;
+    color: $color__coffee;
+}
+.text__subtitle5{
+    font-family: $font1;
+    font-size: 18px;
+    font-weight: 600;
+}
+.title__form{
+    font-family: $font2;
+    font-size: 27px;
+    font-weight: 600;
+    color: $color__coffee;
+}
+/*form*/
+
+
+.name__form{
+    font-family: $font2;
+    font-size: 20px;
+    font-weight: 400;
+}
+.button__form{
+    text-align: start;
+}
+.button_send{
+    width: 50%;
+    background-color: #6BA612;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.icono__form{
+    margin-top: 15px;
+    color: $color_darkcoffee;
+}
+.text__form{
+    font-family: $font1;
+    font-size: 20px;
+    font-weight: 600;
+    color: $color__coffee;
+}
+.box__form{
+    width: 100%;
+}
